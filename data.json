@@ -13,6 +13,17 @@
 		"country": "Pakistan",
 		"city": "Karachi",
 		"latitude": 24.8607,
+		"longitude": 68.0011,
+		"radius": 18,
+		"fillKey": "low",
+		"type": "Low Threats",
+		"link": "http://hotmail.com"
+		
+	},
+	{
+		"country": "Pakistan",
+		"city": "Karachi",
+		"latitude": 24.8607,
 		"longitude": 67.0011,
 		"radius": 10,
 		"fillKey": "high",
