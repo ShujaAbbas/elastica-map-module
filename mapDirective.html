@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Elastica Map Module</title>
+	
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="mapModule.js"></script>
+
+</head>
+
+<body ng-app="mapModule" ng-controller="mapController">
+	<map-directive src="http://portaldesmart.000webhostapp.com/map/data.json" labels="false" circular="true">
+	</map-directive>
+</body>
+
+</html>

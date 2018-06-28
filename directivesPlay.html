@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+        
+        <script>
+            var app = angular.module("myApp", []);
+            app.controller("myController", ['$scope', function($scope){
+                $scope.name = "";
+                
+                $scope.myFunc = function(name){
+                    console.log("in my func " + name);
+                    window.myFunc(name);
+                }
+            }]);
+            app.directive("myDirective", function(){
+                return{
+                    templateUrl: 'http://portaldesmart.000webhostapp.com/map/usingPlay.html',
+                    transclude: true,
+                    scope: {},
+                    link: function(scope, elem, attr){
+                        scope.name = attr.name ;
+                    }
+                };
+            });
+            app.config(function($sceProvider){
+			    $sceProvider.enabled(false);
+		    });
+        </script>
+    </head>
+
+    <body>
+        <div ng-app="myApp" ng-controller="myController" id="appController">
+            <my-directive name="Shuja"></my-directive>
+        </div>
+
+        
+    </body>
+</html>

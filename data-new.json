@@ -1,0 +1,62 @@
+[
+	{
+		"country": "Pakistan",
+		"city": "Karachi",
+		"latitude": 24.8607,
+		"longitude": 68.0011,
+		"radius": 50,
+		"fillKey": "policy",
+		"type": "Policy Alert",
+		"link": "http://google.com"
+	},
+	{
+		"country": "Pakistan",
+		"city": "Karachi",
+		"latitude": 24.8607,
+		"longitude": 67.0011,
+		"radius": 60,
+		"fillKey": "high",
+		"type": "High Threats",
+		"link": "http://gsmarena.com"
+	},
+	{
+		"country": "USA",
+		"city": "Sanfranciso",
+		"latitude": 37.7749,
+		"longitude": -122.4194,
+		"radius": 50,
+		"fillKey": "activities",
+		"type": "Activities",
+		"link": "http://gmail.com"
+	},
+	{
+		"country": "USA",
+		"city": "Sanfranciso",
+		"latitude": 37.7749,
+		"longitude": -122.4194,
+		"radius": 40,
+		"fillKey": "low",
+		"type": "Low Threats",
+		"link": "http://portaldesmart.000webhostapp.com"
+	},
+	{
+		"country": "Tunisia",
+		"city": "Ariana",
+		"latitude": 36.862499,
+		"longitude": 10.195556,
+		"radius": 25,
+		"fillKey": "policy",
+		"type": "Policy Alert",
+		"link": "http://portaldesmart.000webhostapp.com"
+	},
+	{
+		"country": "UK",
+		"city": "London",
+		"latitude": 51.5074,
+		"longitude": -0.1478,
+		"radius": 45,
+		"fillKey": "medium",
+		"type": "Medium Threats",
+		"link": "http://twitter.com"
+	}
+]
